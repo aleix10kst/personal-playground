@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'public-angular-feature-pokemons',
+  displayName: 'public-angular-feature-pokemon',
   preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -8,7 +8,7 @@ module.exports = {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../../coverage/libs/public-angular/feature-pokemons',
+  coverageDirectory: '../../../coverage/libs/public-angular/feature-pokemon',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },

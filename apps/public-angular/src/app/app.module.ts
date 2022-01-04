@@ -18,8 +18,8 @@ const routes: Routes = [
   {
     path: ROUTES.POKEMONS,
     loadChildren: () =>
-      import('@personal-playground/public-angular/feature-pokemons').then(
-        (m) => m.PublicAngularFeaturePokemonsModule
+      import('@personal-playground/public-angular-feature-pokemon').then(
+        (m) => m.PublicAngularFeaturePokemonModule
       ),
   },
   {

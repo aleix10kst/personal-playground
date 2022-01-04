@@ -2,11 +2,11 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Pokemon } from '@personal-playground/public-angular/data-access';
 
 @Component({
-  selector: 'personal-playground-pokemons-list',
-  templateUrl: './pokemons-list.component.html',
-  styleUrls: ['./pokemons-list.component.scss'],
+  selector: 'personal-playground-pokemon-list',
+  templateUrl: './pokemon-list.component.html',
+  styleUrls: ['./pokemon-list.component.scss'],
 })
-export class PokemonsListComponent implements OnInit {
+export class PokemonListComponent implements OnInit {
   @Input() pokemons!: Pokemon[] | null;
 
   constructor() {}

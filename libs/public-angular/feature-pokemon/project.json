@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/public-angular/feature-pokemon",
+  "sourceRoot": "libs/public-angular/feature-pokemon/src",
+  "prefix": "personal-playground",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/public-angular/feature-pokemon"],
+      "options": {
+        "jestConfig": "libs/public-angular/feature-pokemon/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/public-angular/feature-pokemon/src/**/*.ts",
+          "libs/public-angular/feature-pokemon/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
