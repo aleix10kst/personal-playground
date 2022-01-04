@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/public-angular/data-access",
+  "sourceRoot": "libs/public-angular/data-access/src",
+  "prefix": "personal-playground",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/public-angular/data-access"],
+      "options": {
+        "jestConfig": "libs/public-angular/data-access/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/public-angular/data-access/src/**/*.ts",
+          "libs/public-angular/data-access/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

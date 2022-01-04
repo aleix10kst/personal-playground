@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/public-angular/feature-home",
+  "sourceRoot": "libs/public-angular/feature-home/src",
+  "prefix": "personal-playground",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/public-angular/feature-home"],
+      "options": {
+        "jestConfig": "libs/public-angular/feature-home/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/public-angular/feature-home/src/**/*.ts",
+          "libs/public-angular/feature-home/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

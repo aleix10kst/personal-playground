@@ -14,7 +14,21 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@personal-playground/public-angular/components": [
+        "libs/public-angular/components/src/index.ts"
+      ],
+      "@personal-playground/public-angular/data-access": [
+        "libs/public-angular/data-access/src/index.ts"
+      ],
+      "@personal-playground/public-angular/feature-home": [
+        "libs/public-angular/feature-home/src/index.ts"
+      ],
+      "@personal-playground/public-angular/feature-pokemons": [
+        "libs/public-angular/feature-pokemons/src/index.ts"
+      ],
+      "@personal-playground/shared/utils": ["libs/shared/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

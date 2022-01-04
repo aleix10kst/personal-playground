@@ -1,4 +1,14 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "public-angular": "apps/public-angular",
+    "public-angular-components": "libs/public-angular/components",
+    "public-angular-data-access": "libs/public-angular/data-access",
+    "public-angular-e2e": "apps/public-angular-e2e",
+    "public-angular-feature-home": "libs/public-angular/feature-home",
+    "public-angular-feature-pokemons": "libs/public-angular/feature-pokemons",
+    "public-react": "apps/public-react",
+    "public-react-e2e": "apps/public-react-e2e",
+    "shared-utils": "libs/shared/utils"
+  }
 }
